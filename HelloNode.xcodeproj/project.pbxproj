@@ -6,11 +6,24 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		D52F28871CF2D0CB0064C39B /* HelloNode.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = HelloNode.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		D52F287E1CF2CFAE0064C39B = {
 			isa = PBXGroup;
 			children = (
+				D52F28861CF2D0520064C39B /* nodejs */,
 			);
+			sourceTree = "<group>";
+		};
+		D52F28861CF2D0520064C39B /* nodejs */ = {
+			isa = PBXGroup;
+			children = (
+				D52F28871CF2D0CB0064C39B /* HelloNode.js */,
+			);
+			name = nodejs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
