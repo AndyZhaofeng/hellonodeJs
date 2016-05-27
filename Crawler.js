@@ -20,7 +20,7 @@ function filterFocusNews(html){
 
 function printNewsList(newsList){
     newsList.forEach(function(item){
-                     console.log(item+'\n');
+                     console.log(item);
                      })
 }
 http.get(url,function(res){
