@@ -12,10 +12,7 @@ function filterFocusNews(html){
                   var titles=ulist.find('ul').children('li');
                   titles.each(function(subItem){
                               var news=$(this).find('a').text();
-//                              var str=iconv.decode(new Buffer(news,'binary'),'utf-16');
-                              console.log(news);
-//                              var newsTitle=news.text();
-//                              paneNewsData.push(newsTitle);
+                              paneNewsData.push(news);
                              })
                   })
     return paneNewsData;
@@ -35,8 +32,7 @@ http.get(url,function(res){
          res.on('end',function(){
                 var decodeBody=iconv.decode(Buffer.concat(html),'gbk');
                 var newsList=filterFocusNews(decodeBody);
-//                console.log(decodeBody);
-//                printNewsList(newsList);
+                printNewsList(newsList);
                 })
          }).on('error',function(){
                console.log('获取数据出错！');
