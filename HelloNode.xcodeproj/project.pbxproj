@@ -8,6 +8,15 @@
 
 /* Begin PBXFileReference section */
 		D52F28871CF2D0CB0064C39B /* HelloNode.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = HelloNode.js; sourceTree = "<group>"; };
+		D57344941CF7E0B300F880E0 /* Crawler.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Crawler.js; sourceTree = "<group>"; };
+		D587AE2B1CF543D60002609C /* Callback.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Callback.js; sourceTree = "<group>"; };
+		D587AE2C1CF545D30002609C /* async.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = async.js; sourceTree = "<group>"; };
+		D587AE2D1CF54ADE0002609C /* context.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = context.js; sourceTree = "<group>"; };
+		D587AE2E1CF54F3F0002609C /* call_apply.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = call_apply.js; sourceTree = "<group>"; };
+		D587AE301CF551090002609C /* call_apply_extend.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = call_apply_extend.js; sourceTree = "<group>"; };
+		D599A1851CFBDB0E0021B7F4 /* ball.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ball.html; sourceTree = "<group>"; };
+		D599A1871CFC0EC30021B7F4 /* https.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = https.js; sourceTree = "<group>"; };
+		D599A1881CFC10570021B7F4 /* Promise_crawler.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Promise_crawler.js; sourceTree = "<group>"; };
 		D5AD3C3C1CF3EB7E00138641 /* Student.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Student.js; sourceTree = "<group>"; };
 		D5AD3C3D1CF3EBFB00138641 /* teacher.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = teacher.js; sourceTree = "<group>"; };
 		D5AD3C3E1CF3EC6A00138641 /* Class.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Class.js; sourceTree = "<group>"; };
@@ -18,6 +27,9 @@
 		D52F287E1CF2CFAE0064C39B = {
 			isa = PBXGroup;
 			children = (
+				D599A1861CFC0EAB0021B7F4 /* https */,
+				D599A1841CFBDAF00021B7F4 /* promise */,
+				D587AE2A1CF543C10002609C /* http */,
 				D5AD3C3B1CF3EB5000138641 /* school */,
 				D52F28861CF2D0520064C39B /* nodejs */,
 			);
@@ -29,6 +41,36 @@
 				D52F28871CF2D0CB0064C39B /* HelloNode.js */,
 			);
 			name = nodejs;
+			sourceTree = "<group>";
+		};
+		D587AE2A1CF543C10002609C /* http */ = {
+			isa = PBXGroup;
+			children = (
+				D587AE2B1CF543D60002609C /* Callback.js */,
+				D587AE2C1CF545D30002609C /* async.js */,
+				D587AE2D1CF54ADE0002609C /* context.js */,
+				D587AE2E1CF54F3F0002609C /* call_apply.js */,
+				D587AE301CF551090002609C /* call_apply_extend.js */,
+				D57344941CF7E0B300F880E0 /* Crawler.js */,
+				D599A1881CFC10570021B7F4 /* Promise_crawler.js */,
+			);
+			name = http;
+			sourceTree = "<group>";
+		};
+		D599A1841CFBDAF00021B7F4 /* promise */ = {
+			isa = PBXGroup;
+			children = (
+				D599A1851CFBDB0E0021B7F4 /* ball.html */,
+			);
+			name = promise;
+			sourceTree = "<group>";
+		};
+		D599A1861CFC0EAB0021B7F4 /* https */ = {
+			isa = PBXGroup;
+			children = (
+				D599A1871CFC0EC30021B7F4 /* https.js */,
+			);
+			name = https;
 			sourceTree = "<group>";
 		};
 		D5AD3C3B1CF3EB5000138641 /* school */ = {
