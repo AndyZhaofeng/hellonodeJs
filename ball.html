@@ -1,0 +1,57 @@
+<!doctype>
+<html>
+    <head>
+        <title>ball animation</title>
+        <style>
+            .ball{
+                width:45px;
+                height:45px;
+                border-radius:22px;
+            }
+            .ball1{
+                background:purple;
+            }
+            .ball2{
+                background:pink;
+            }
+            .ball3{
+                background:blue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="ball ball1" style="margin-left:0;"></div>
+        <div class="ball ball2" style="margin-left:0;"></div>
+        <div class="ball ball3" style="margin-left:0;"></div>
+        
+        <script>
+            var ball1=document.querySelector('.ball1');
+            var ball2=document.querySelector('.ball2');
+            var ball3=document.querySelector('.ball3');
+            
+            function animate(ball,distance,cb){
+                setTimeout(function(){
+                    var marginLeft=parseInt(ball.style.marginLeft,10);
+                    if(marginLeft==distance){
+                        cb && cb();
+                    }else{
+                        if(marginLeft<distance){
+                           marginLeft++;
+                        }else{
+                           marginLeft--;
+                        }
+                        ball.style.marginLeft=marginLeft;
+                        animate(ball,distance,cb);
+                    }
+                },13)
+            }
+        animate(ball1,80,function(){
+                animate(ball2,160,function(){
+                        animate(ball3,320,function(){
+                        
+                        })
+                })
+        })
+        </script>
+    </body>
+</html>
