@@ -10,6 +10,8 @@
 		D51D20E31CFD6EF9003FABA1 /* buffer_image.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = buffer_image.js; sourceTree = "<group>"; };
 		D51D20E41CFD6FC4003FABA1 /* bd_logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bd_logo1.png; path = ../../Desktop/bd_logo1.png; sourceTree = "<group>"; };
 		D51D20E61CFD74E9003FABA1 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		D51D20E81CFD7970003FABA1 /* stream_event.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = stream_event.js; sourceTree = "<group>"; };
+		D51D20E91CFD7E5A003FABA1 /* stream_copy.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = stream_copy.js; sourceTree = "<group>"; };
 		D52F28871CF2D0CB0064C39B /* HelloNode.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = HelloNode.js; sourceTree = "<group>"; };
 		D57344941CF7E0B300F880E0 /* Crawler.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Crawler.js; sourceTree = "<group>"; };
 		D587AE2B1CF543D60002609C /* Callback.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Callback.js; sourceTree = "<group>"; };
@@ -37,9 +39,19 @@
 			name = buffer;
 			sourceTree = "<group>";
 		};
+		D51D20E71CFD794A003FABA1 /* stream */ = {
+			isa = PBXGroup;
+			children = (
+				D51D20E81CFD7970003FABA1 /* stream_event.js */,
+				D51D20E91CFD7E5A003FABA1 /* stream_copy.js */,
+			);
+			name = stream;
+			sourceTree = "<group>";
+		};
 		D52F287E1CF2CFAE0064C39B = {
 			isa = PBXGroup;
 			children = (
+				D51D20E71CFD794A003FABA1 /* stream */,
 				D51D20E21CFD6ED9003FABA1 /* buffer */,
 				D599A1861CFC0EAB0021B7F4 /* https */,
 				D599A1841CFBDAF00021B7F4 /* promise */,
