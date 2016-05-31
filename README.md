@@ -14,4 +14,4 @@ nodejs练习 2016-05-23：
 
 2016-05-31：
 
-添加buffer与stream的例子。
+添加buffer、stream、pipe的例子。
